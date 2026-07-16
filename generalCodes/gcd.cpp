@@ -1,3 +1,5 @@
+// O(n) ; n = min(x,y)
+
 #include <algorithm>   
 
 int gcd(int x, int y) {
@@ -11,3 +13,10 @@ int gcd(int x, int y) {
 
     return 1;
 }
+
+/*
+
+#include <numeric>
+int g = std::gcd(x, y);
+
+*/
